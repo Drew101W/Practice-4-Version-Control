@@ -1,3 +1,4 @@
+import random
 #Welcome message
 print("Welcome to Rock-Paper-Scissors!")
 
@@ -10,11 +11,8 @@ print("Player chose:", player)
 
 #Computer's choice 
 # ------------------------------------------
-
-
-
-
-
+computer = random.choice(["rock", "paper", "scissors"])
+print("Computer chose:", computer)
 
 #------------------------------------------
 
