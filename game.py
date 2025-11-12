@@ -1,5 +1,5 @@
 #Welcome message
-print("Welcome to Rock-Paper-Scissors!")
+print("Welcome to Rock-Paper-Scissors! Let's start the game.")
 
 # Get player's choice
 player = input("Choose rock, paper, or scissors: ").strip().lower()
